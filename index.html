@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLMDJzLQQoCW9/vZaC1BGMv3L4k9mQkL6T6e+tK/O4t7t29Pz7M9GvM03L8M7J6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Favicon for browser tab -->
+<link rel="icon" type="image/x-icon" href="icon-16.png">
+<link rel="icon" type="image/png" sizes="16x16" href="icon-16.jpg">
+<link rel="icon" type="image/png" sizes="32x32" href="icon-32.jpg">
+
+<!-- Android Chrome icons -->
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.jpg">
+<link rel="icon" type="image/png" sizes="512x512" href="icon-512.jpg">
+
+<!-- Apple Touch Icon (iPhone/iPad homescreen) -->
+<link rel="apple-touch-icon" href="icon-300.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar (Header) -->
+    <nav class="main-nav">
+        <div class="container">
+            <div class="nav-content">
+             
+                <div class="nav-logo-container">
+                    <a href="#home" class="nav-logo">Portfolio.</a>
+                </div>
+         
+                <div class="desktop-menu">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#certifications" class="nav-link">Certificates</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+                <div class="mobile-menu-btn-container">
+                    <button id="mobile-menu-button" class="mobile-menu-btn" aria-expanded="false">
+                        <svg id="hamburger-icon" class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                        <svg id="close-icon" class="h-6 w-6 hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-menu" class="mobile-menu">
+            <a href="#home" class="mobile-nav-link">Home</a>
+            <a href="#about" class="mobile-nav-link">About</a>
+            <a href="#certifications" class="mobile-nav-link">Certificates</a>
+            <a href="#projects" class="mobile-nav-link">Projects</a>
+            <a href="#contact" class="mobile-nav-link">Contact</a>
+        </div>
+    </nav>
+
+    <!-- 1. Home Section -->
+    <header id="home" class="home-section container">
+        <div class="home-text-container">
+            <p class="home-greeting">👋 Hello, I Am!</p>
+            <h1 class="home-title">
+                <span class="home-title-span">Vinay</span> Kumar
+            </h1>
+            <h2 class="home-subtitle">Frontend Developer | Web Designer</h2>
+            <p class="home-description">
+              I'm a frontend developer with a sharp eye for design and a deep love for clean, responsive, and user-centric web interfaces.
+              I specialize in turning ideas into interactive, performant, and modern web experiences using technologies like HTML 5, CSS 3, JavaScript,
+            </p>
+            <a href="#projects" class="btn-primary">
+                Projects &rarr;
+            </a>
+        </div>
+        <div class="home-photo-container">
+            <!-- Profile Photo  -->
+            <img src="1.png" alt="Profile Photo" class="circular-photo">
+        </div>
+    </header>
+
+    <!-- 2. About Section -->
+    <section id="about" class="section-padding" style="background-color: var(--background-light);">
+        <div class="container">
+            <h2 href="#" class="section-heading">About Me</h2>
+            <div class="divider"></div>
+
+            <div class="about-main-wrapper">
+
+                <div class="about-text-content">
+                    <p>
+                     1. I’m Vinay Kumar, a passionate web developer and tech enthusiast who enjoys turning ideas into functional and creative digital solutions.
+                    </p>
+                    <p>
+                    2. I specialize in front-end development using HTML, CSS, and JavaScript, and I love building responsive, user-friendly websites.
+                    </p>
+                    <p>
+                   3. My goal is to keep improving my skills and contribute to impactful projects that solve real-world problems, inspire people, and enhance user experiences. I believe in continuous learning and building things that make a difference.
+                    </p>
+                    <div style="display: flex; justify-content: flex-start; padding-top: 1rem;">
+                        <a href="#Certificates" class="btn-secondary">
+                            Certificates
+                        </a>
+                    </div>
+                </div>
+
+                <div class="skills-content">
+                    <h3>Skills</h3>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name-level">
+                            <span>HTML</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar-fill" style="width: 95%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-name-level">
+                            <span>CSS & Responsive Design</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar-fill" style="width: 90%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-name-level">
+                            <span>JavaScript</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar-fill" style="width: 70%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-name-level">
+                            <span>Git & Version Control</span>
+                            <span>100%</span>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar-fill" style="width: 100%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name-level">
+                            <span>Communitation skills</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-bar-fill" style="width: 80%;"></div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Certifications Section -->
+   <section id="certifications" class="section-padding" style="background-color: var(--background-white);">
+        <div class="container">
+            <h2 class="section-heading">Certificates</h2>
+            <div class="divider"></div>
+            
+            <div class="cert-grid">
+                
+                <!-- Certificate Card 1 -->
+                <div class="cert-card">
+                    <div class="cert-header">
+                        <img src="C1.png" alt="GUVI HCL Logo" class="cert-logo" onerror="this.onerror=null; this.src='https://placehold.co/50x50/10b981/ffffff?text=GUVI'">
+                        <h3 class="cert-title">Hackathon Event Participant</h3>
+                    </div>
+                    <p>
+                        Mission Upskill India Techfest - ABES Edition ke dauran Hackathon Event mein successful participation.
+                    </p>
+                    <span class="cert-issuer">GUVI & HCL</span>
+                    <a href="https://www.guvi.in/share-certificate/R111ac131Oek95877x" target="_blank" style="margin-top: 0.5rem; display: block; font-weight: 600;">View Credential &rarr;</a>
+                </div>
+
+                <!-- Certificate Card 2 -->
+                <div class="cert-card">
+                    <div class="cert-header">
+                        <img src="C2.png" alt="GUVI HCL Logo" class="cert-logo" onerror="this.onerror=null; this.src='https://placehold.co/50x50/3b82f6/ffffff?text=GUVI'">
+                        <h3 class="cert-title">GUVI Day - Mission UpSkill Techfest</h3>
+                    </div>
+                    <p>
+                        GUVI Day - Mission UpSkill India Techfest | ABES Edition mein active participation.
+                    </p>
+                    <span class="cert-issuer">GUVI & HCL</span>
+                    <a href="https://www.guvi.in/verify-certificate?id=215P2516o1W74rVaO8" target="_blank" style="margin-top: 0.5rem; display: block; font-weight: 600;">View Credential &rarr;</a>
+                </div>
+
+                <!-- Certificate Card 3  -->
+                <div class="cert-card">
+                    <div class="cert-header">
+                        <img src="C3.jpg" alt="Wayspire Logo" class="cert-logo" onerror="this.onerror=null; this.src='https://placehold.co/50x50/4f46e5/ffffff?text=AI'">
+                        <h3 class="cert-title">Gen AI Lab Workshop</h3>
+                    </div>
+                    <p>
+                        Workshop Beyond Prompts - Unlocking the Gen AI Lab mein successful participation.
+                    </p>
+                    <span class="cert-issuer">Wayspire</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+   <!-- 4. Projects Section -->
+    <section id="projects" class="section-padding" style="background-color: var(--background-light);">
+        <div class="container">
+            <h2 class="section-heading">Projects</h2>
+            <div class="divider"></div>
+            <div class="projects-grid">
+
+                <!-- Project Card 1: -->
+                <div class="project-card">
+                    <img src="S1.png" alt="Project 1 Screenshot" class="project-screenshot">
+                    <h3>Portfolio</h3>
+                    <p style="color: #ffff; margin-bottom: 1rem;">
+                    I’m a frontend web developer passionate about building clean and functional websites using HTML, CSS, and JavaScript. I love experimenting with new designs and improving my coding skills through real-world projects.
+                    </p>
+                    <div class="tag-container">
+                        <span class="tag tag-blue">HTML</span>
+                        <span class="tag tag-blue">CSS</span>
+                    </div>
+                    <a href="#" style="margin-top: 1rem; display: block; font-weight: 600;">Live Demo Dekhein &rarr;</a>
+                </div>
+
+                <!-- Project Card 2: -->
+                <div class="project-card">
+                    <img src="S1.png" alt="Project 2 Screenshot" class="project-screenshot">
+                    <h3>Amazon</h3>
+                    <p style="color: #ffff; margin-bottom: 1rem;">
+                    Built an Amazon clone using HTML and CSS. This is my first web project, featuring a homepage with product listings and a navigation bar inspired by Amazon.
+                    </p>
+                    <div class="tag-container">
+                        <span class="tag tag-green">HTML</span>
+                        <span class="tag tag-green">CSS</span>
+                    </div>
+                    <a href="https://amazon-t84w.onrender.com" style="margin-top: 1rem; display: block; font-weight: 600;">Deploy Link &rarr;</a>
+                </div>
+
+                <!-- Project Card 3: To-Do List Manager -->
+                <div class="project-card">
+                    <img src="S3.png" alt="Project 3 Screenshot" class="project-screenshot">
+                    <h3>Invitation-card</h3>
+                    <p style="color: #ffff; margin-bottom: 1rem;">
+                     Created a responsive Fresher Invitation Card with HTML and CSS. Emphasized design aesthetics, layout structure, and responsive behavior for mobile and desktop screens.
+                    </p>
+                    <div class="tag-container">
+                        <span class="tag tag-red">HTML</span>
+                        <span class="tag tag-red">CSS</span>
+                    </div>
+                    <a href="https://invitation-card-2xhr.onrender.com" style="margin-top: 1rem; display: block; font-weight: 600;">Deploy Link &rarr;</a>
+                </div>
+                
+                <!-- Project Card 4: -->
+                <div class="project-card">
+                    <img src="S4.png" alt="Project 4 Screenshot" class="project-screenshot">
+                    <h3>Movies</h3>
+                    <p style="color: #ffff; margin-bottom: 1rem;">
+                    Created a responsive Movies website using HTML, CSS, and JavaScript. Implemented dynamic display of movie ratings and descriptions, focusing on responsive design and interactive frontend features.
+                    </p>
+                    <div class="tag-container">
+                        <span class="tag tag-purple">HTML</span>
+                        <span class="tag tag-purple">CSS</span>
+                        <span class="tag tag-purple">JAVASCRIPT</span>
+                    </div>
+                    <a href="https://movies-07mn.onrender.com" style="margin-top: 1rem; display: block; font-weight: 600;">Deploy Link &rarr;</a>
+                </div>
+                <!-- Project Card 5: -->
+                <div class="project-card">
+                    <img src="S5.png" alt="Project 4 Screenshot" class="project-screenshot">
+                    <h3>Tic-Tac-Toe</h3>
+                    <p style="color: #ffff; margin-bottom: 1rem;">
+                     Built a responsive Tic Tac Toe game using HTML, CSS, and JavaScript. Features interactive gameplay, two-player mode, and works seamlessly on different screen sizes.
+                    </p>
+                    <div class="tag-container">
+                        <span class="tag tag-purple">HTML</span>
+                        <span class="tag tag-purple">CSS</span>
+                         <span class="tag tag-purple">JAVASCRIPT</span>
+                    </div>
+                    <a href="https://tic-tac-toe-game-y419.onrender.com" style="margin-top: 1rem; display: block; font-weight: 600;">Deploy Link &rarr;</a>
+                </div>
+
+                <!-- Project Card 6: -->
+                <div class="project-card">
+                    <img src="S6.png" alt="Project 5 Screenshot" class="project-screenshot">
+                    <h3>AI-Co-Author</h3>
+                    <p style="color: #ffff; margin-bottom: 1rem;">
+                    Developed an AI-powered Story Generator website using HTML, CSS, and JavaScript. Users can input prompts to generate stories along with images, showcasing interactive AI integration on the frontend.
+                    </p>
+                    <div class="tag-container">
+                        <span class="tag tag-yellow">HTML</span>
+                        <span class="tag tag-yellow">CSS</span>
+                        <span class="tag tag-yellow">JAVASCRIPT</span>
+                        <span class="tag tag-yellow">OPEN API</span>
+                    </div>
+                    <a href="#" style="margin-top: 1rem; display: block; font-weight: 600;">Deploy Link &rarr;</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Contact Section -->
+    <section id="contact" class="section-padding" style="background-color: var(--background-white);">
+        <div class="container">
+            <h2 class="section-heading">Contact</h2>
+            <div class="divider"></div>
+
+            <div class="contact-form-card">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" id="name" name="name" required class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Your Email</label>
+                        <input type="email" id="email" name="email" required class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" name="message" rows="4" required class="form-textarea"></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary" style="width: 100%; border: none;">
+                        Send
+                    </button>
+                </form>
+                <!-- Form Submission Feedback Message -->
+                <div id="form-message" class="hidden form-message">
+                   Sended
+                </div>
+            </div>
+
+            <!-- Social Links (NEW) -->
+            <div class="social-links">
+                <a href="https://wa.me/8601317580" target="_blank" aria-label="WhatsApp Profile">
+                    <i class="fab fa-whatsapp social-icon"></i>
+                </a>
+                <a href="https://instagram.com/_heart__hacker__gupt" target="_blank" aria-label="Instagram Profile">
+                    <i class="fab fa-instagram social-icon"></i>
+                </a>
+                <a href="https://twitter.com/Vinaykumar71192" target="_blank" aria-label="Twitter/X Profile">
+                    <i class="fab fa-twitter social-icon"></i>
+                </a>
+                <a href="https://github.com/Vinaygkp" target="_blank" aria-label="GitHub Profile">
+                    <i class="fab fa-github social-icon"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Footer Section -->
+    <footer class="main-footer">
+        <div class="container">
+            <p>
+                Designed by ❤️ Vinay.
+            </p>
+            <small>
+                &copy; 2025 My Portfolio. All rights reserved.
+            </small>
+        </div>
+    </footer>
+
+ <script src="script.js"> </script>
+</body>
+</html>
