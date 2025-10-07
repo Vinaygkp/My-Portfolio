@@ -79,6 +79,19 @@
             background-color: #081b29;
             transform: scale(1.1);
         }
+        .btn-tertiory {
+            display: inline-block;
+            background-color:#081b29;
+            color:#fefefe;
+            font-weight: 600;
+            padding: 0.75rem 2rem;
+            border-radius: 9999px;
+            box-shadow: 0 10px 15px -3px rgba(79, 70, 229, 0.5);
+        }
+        .btn-tertiory:hover {
+            background-color:transparent;
+            transform: scale(1.05);
+        }
 
         /* 1. Navigation */
         .main-nav {
